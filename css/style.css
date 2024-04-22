@@ -1,8 +1,10 @@
 * {
     font-family: "Times New Roman";
     font-weight: normal;
-    margin-top: 0;
-    margin-bottom: 0;
+}
+
+body {
+    margin: 0;
 }
 
 h4 {
@@ -101,7 +103,6 @@ td {
 
 .lb > td {
     background-color: #B1E5F2;
-    border: #B1E5F2;
 }
 
 .suggestion1 {
