@@ -39,6 +39,13 @@ h1 {
 
 .images {
     width: 100%;
+    height: auto;
+}
+
+.images img {
+    flex-shrink: 0;
+    min-width: 49%;
+    height: 500px;
 }
 
 p {
