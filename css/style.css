@@ -1,23 +1,41 @@
-h5, h6{
+* {
+    font-family: "Times New Roman";
+    font-weight: normal;
+}
+
+h4 {
+    font-size: 20px;
     padding: 0;
     margin: 0;
-    color: grey;
+    color: #979797;
+}
+
+h5 {
+    font-size: 15px;
+    padding: 0;
+    padding-bottom: 10px;
+    margin: 0;
+    color: #979797;
+}
+
+h6 {
+    padding: 0;
+    margin: 0;
 }
 
 h1 {
-    color: black;
-    font-size: 120px;
-    font-family: "Times New Roman";
     font-weight: bold;
+    color: black;
+    font-size: 70px;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .banner {
     background-image: url(/img/pattern.png);
-    background-color: lightskyblue;
-    width: 100%;
+    background-color: #4EA0FF;
+    background-size: cover;
     height: 200px;
-    margin: 0;
-    padding: 0;
 }
 
 .images {
@@ -25,6 +43,13 @@ h1 {
 }
 
 #logo {
-    width: 300px;
-    height: auto;
+    width: 350px;
+    position: sticky;
+    top: 100px;
+}
+
+.link {
+    text-decoration: none; 
+    color: #3FB5E8;
+    font-weight: lighter;
 }
