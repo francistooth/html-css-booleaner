@@ -32,9 +32,8 @@ h1 {
 }
 
 .banner {
-    background-image: url(/img/pattern.png);
+    background-image: url(../img/pattern.png);
     background-color: #4EA0FF;
-    background-size: cover;
     height: 200px;
 }
 
@@ -42,9 +41,21 @@ h1 {
     width: 100%;
 }
 
+p {
+    font-size: 20px;
+}
+
+.list {
+    margin-left: 0;
+}
+
+li{
+    font-size: 20px;
+}
+
 #logo {
     width: 350px;
-    position: sticky;
+    position: absolute;
     top: 100px;
 }
 
@@ -56,4 +67,46 @@ h1 {
 
 span {
     background-color: #FFFF00;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+}
+
+th {
+    color: white;
+    background-color: #4EA0FF;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0px solid #4EA0FF;
+}
+
+td {
+    height: 40px;
+    font-size: 20px;
+}
+
+.lb > td {
+    background-color: #B1E5F2;
+    border: #B1E5F2;
+}
+
+.suggestion1 {
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.suggestion2 {
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+h3 {
+    color: white;
+    font-weight: bold;
+    position: relative;
+    font-size: 30px;
 }
