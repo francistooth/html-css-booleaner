@@ -1,0 +1,30 @@
+h5, h6{
+    padding: 0;
+    margin: 0;
+    color: grey;
+}
+
+h1 {
+    color: black;
+    font-size: 120px;
+    font-family: "Times New Roman";
+    font-weight: bold;
+}
+
+.banner {
+    background-image: url(/img/pattern.png);
+    background-color: lightskyblue;
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.images {
+    width: 100%;
+}
+
+#logo {
+    width: 300px;
+    height: auto;
+}
